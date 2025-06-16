@@ -1,5 +1,5 @@
 from langchain_community.vectorstores import Chroma
-from langchain.chat_models import QianfanChatEndpoint
+from langchain_community.chat_models import QianfanChatEndpoint
 from langchain_community.embeddings import QianfanEmbeddingsEndpoint
 
 import streamlit as st
