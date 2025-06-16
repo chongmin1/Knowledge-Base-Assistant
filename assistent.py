@@ -1,10 +1,5 @@
 from langchain_community.vectorstores import Chroma
 from langchain.chat_models import QianfanChatEndpoint
-from langchain.chains.retrieval_qa.base import RetrievalQA
-from langchain.chains.retrieval import create_retrieval_chain
-from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain_core.prompts import ChatPromptTemplate
-from langchain.prompts import PromptTemplate
 from langchain_community.embeddings import QianfanEmbeddingsEndpoint
 
 import streamlit as st
