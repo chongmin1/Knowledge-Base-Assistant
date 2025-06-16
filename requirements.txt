@@ -1,1 +1,1 @@
-langchain-community
+-U langchain-community
